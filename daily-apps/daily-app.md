@@ -9,19 +9,20 @@
   - Interactive tipping cards (3 options)
   - Success notifications
   - Responsive design
-- 📦 **Repo**: theharkco/xrp-insight-tips
+- 📦 **Repo**: https://github.com/theharkco/xrp-insight-tips
 
 ## 2026-02-26 - Todo AI
 - 🎯 **App**: Intelligent task manager with AI-powered suggestions
 - 🛠️ **Stack**: Next.js 16.1.6 (Turbopack), TypeScript, Tailwind CSS v4
-- 📦 **Status**: ✅ Deployed at https://daily-apps.apps.harkco.se
-- 📁 **Repo**: theharkco/daily-apps
+- 📦 **Status**: ⏳ Waiting for Coolify deployment
+- 📁 **Repo**: https://github.com/theharkco/todo-ai
 - 🎨 **Features**:
   - AI task analysis with suggestions
   - Priority-based task management
   - Interactive UI with smooth animations
   - LocalStorage persistence
   - Real-time stats and progress tracking
+- 🚀 **Next**: Deploy to Coolify via dashboard
 
 ## Next App Ideas
 - [ ] 2026-02-27 - Real-time collaborative whiteboard
@@ -31,5 +32,5 @@
 ## Repo Status
 | App Name | Repo | Status |
 |----------|------|--------|
-| XRP Insights | theharkco/xrp-insight-tips | ✅ Deployed |
-| Todo AI | theharkco/daily-apps | ✅ Deployed |
+| XRP Insights | https://github.com/theharkco/xrp-insight-tips | ✅ Deployed |
+| Todo AI | https://github.com/theharkco/todo-ai | ⏳ Waiting for deployment |
