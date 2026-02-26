@@ -14,7 +14,7 @@
 ## 2026-02-26 - Todo AI
 - 🎯 **App**: Intelligent task manager with AI-powered suggestions
 - 🛠️ **Stack**: Next.js 16.1.6 (Turbopack), TypeScript, Tailwind CSS v4
-- 📦 **Status**: ⏳ Waiting for Coolify deployment
+- 📦 **Status**: ✅ Deployed at http://jkoco8skg004so80wwc8wcco.213.80.122.170.sslip.io
 - 📁 **Repo**: https://github.com/theharkco/todo-ai
 - 🎨 **Features**:
   - AI task analysis with suggestions
@@ -22,7 +22,11 @@
   - Interactive UI with smooth animations
   - LocalStorage persistence
   - Real-time stats and progress tracking
-- 🚀 **Next**: Deploy to Coolify via dashboard
+- 🚀 **Deployment**: API successfully created app and triggered deployment via `/api/v1/deploy`
+- 📝 **API Usage**:
+  - Created app: `POST /api/v1/applications/public`
+  - Triggered deployment: `POST /api/v1/deploy` with `{"uuid": "<app-uuid>"}`
+  - Deployed UUID: `jkoco8skg004so80wwc8wcco`
 
 ## Next App Ideas
 - [ ] 2026-02-27 - Real-time collaborative whiteboard
