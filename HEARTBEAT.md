@@ -18,21 +18,23 @@
 - Daily apps tracker repo: `theharkco/daily-apps`
   - Contains `daily-apps/daily-app.md` with links and status for all apps
 
-# Deployment
-- Deploy each app to Coolify via the UI at https://apps.harkco.se
-- **Manual process required**: Go to the Coolify dashboard → Create New Resource → GitHub
-- App UUIDs and deployment info should be recorded in `daily-apps/daily-app.md`
+# Deployment (Coolify)
+- **Recommended**: Deploy via UI at https://apps.harkco.se
+  - Go to dashboard → Create New Resource → GitHub
+  - Select "Public repository" option
+  - Enter repository URL: `https://github.com/theharkco/<app-name>`
+  - Configure build settings (Nixpacks for Next.js)
+  - Enable auto-deploy for automatic CI/CD
+- **API** (for advanced use):
+  - Base endpoint: `https://apps.harkco.se/api/v1/`
+  - Token: from 1Password vault `minihark` → `GitHub Token`
+  - Create application: `POST /v1/applications` with project_uuid, server_uuid, environment info, git_repository, etc.
+  - Note: API requires project and server UUIDs from Coolify dashboard
 
-# API Notes (from existing deployments)
-- Coolify API requires authentication via Bearer token from 1Password vault `minihark`
-- Token: `8q4mewZbfvyEWCl77ogltSpCvget8pk6pypVF4TX9a0a92cb`
-- Base endpoint: `https://apps.harkco.se/api/v1/`
-- Existing apps:
-  - XRP Insights: `t0488scsg0ogkw4884owkkkk` → `https://xrp-insights.apps.harkco.se`
-  - XRP Alert Bot: `pssk8o8o8swg0cc88ogk0wg4` → `https://xrp-alerts.apps.harkco.se`
-  - Fraga Kölle: `bkc848gkccww4k4ws00cw00k` → `https://fragakolle.se`
-- The API endpoints I tried (`/api/v1/applications`, `/api/v1/deployments`) returned "Not found"
-- Manual deployment via UI is the reliable method
+# Existing Coolify Apps (for reference)
+- **XRP Insights**: `t0488scsg0ogkw4884owkkkk` → `https://xrp-insights.apps.harkco.se`
+- **XRP Alert Bot**: `pssk8o8o8swg0cc88ogk0wg4` → `https://xrp-alerts.apps.harkco.se`
+- **Fraga Kölle**: `bkc848gkccww4k4ws00cw00k` → `https://fragakolle.se`
 
 # Other Periodic Checks
 - Email - Any urgent unread messages?
