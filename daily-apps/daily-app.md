@@ -33,15 +33,3 @@
 |----------|------|--------|
 | XRP Insights | theharkco/xrp-insight-tips | ✅ Deployed |
 | Todo AI | theharkco/daily-apps | ✅ Deployed |
-
-## Repo Status
-| App Name | Repo | Status |
-|----------|------|--------|
-| XRP Insights | theharkco/xrp-insight-tips | ✅ Deployed |
-| Todo AI | theharkco/daily-apps | ✅ Deployed |
-
-## Repo Status
-| App Name | Repo | Status |
-|----------|------|--------|
-| XRP Insights | theharkco/xrp-insight-tips | ✅ Deployed |
-| Todo AI | theharkco/todo-ai | ⏳ Needs creation |
