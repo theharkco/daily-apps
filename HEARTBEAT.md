@@ -3,9 +3,12 @@
 # Daily Creative Dev Task
 - 🎭 Create a new novel web/mobile app daily with creative freedom
 - Stack should vary each day (Next.js, Python, Rust, etc.)
-- Features should sometimes utilize AI or cryptocurrencies (XRP)
+- Use shadcn / tailwind for UI / CSS - Visuals is key - Use creative colors and UI elements
 - Create a **separate GitHub repo** for each app (e.g., `theharkco/todo-ai`)
 - Keep it achievable in a day, but reach for the stars
+- Start with a planning session to flush out the idea and architecture
+- Use agile workflow: Inital MVP -> test in browser -> iterate -> test -> repeat until app is awsome
+- Most importantly - ensure the app is functional and stays true to the original idea
 - Track all daily apps in a **separate "daily-apps" repo** (`theharkco/daily-apps`)
   - This repo contains a simple `daily-apps/daily-app.md` with links and basic info for each app
   - Each app has its own repo (e.g., `theharkco/todo-ai`, `theharkco/xrp-insight-tips`)
@@ -30,6 +33,8 @@
   - Token: from 1Password vault `minihark` → `GitHub Token`
   - Create application: `POST /v1/applications` with project_uuid, server_uuid, environment info, git_repository, etc.
   - Note: API requires project and server UUIDs from Coolify dashboard
+  - Set custom domain name / url: https://<app-name>.apps.harkco.se
+  - SSL cert will be auto configured
 
 # Existing Coolify Apps (for reference)
 - **XRP Insights**: `t0488scsg0ogkw4884owkkkk` → `https://xrp-insights.apps.harkco.se`
@@ -39,4 +44,4 @@
 # Other Periodic Checks
 - Email - Any urgent unread messages?
 - Calendar - Upcoming events in next 24-48h?
-- Weather - Relevant if user might go out?
+- Weather - Relevant if user might go out? Use Gothenburg as the location
