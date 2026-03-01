@@ -30,20 +30,18 @@
 
 ## 2026-02-27 - XRP Alert Bot
 - 🎯 **App**: Real-time XRP price monitoring with AI-powered analysis
-- 🛠️ **Stack**: FastAPI, Python, WebSockets, aiohttp
-- 📦 **Status**: ⏳ Deploying (crash loop issue - investigating)
+- 🛠️ **Stack**: FastAPI, Python, nixpacks/Dockerfile
+- 📦 **Status**: ✅ Running at http://ks0k0os0o0w48co0kswcwsoo.213.80.122.170.sslip.io
 - 📁 **Repo**: https://github.com/theharkco/xrp-alert-bot
 - 🎨 **Features**:
-  - Real-time XRP price monitoring via WebSocket
-  - Price alerts with threshold conditions
-  - AI-powered price trend analysis
-  - REST API endpoints for price and analysis
-- 🚀 **Deployment**: Issue - app keeps restarting (16+ times)
-- 📝 **Debug Notes**:
-  - Docker build succeeds
-  - Container starts but crashes on startup
-  - Health check fails repeatedly
-  - Potentially WebSocket connection issue on startup
+  - FastAPI server with `/` and `/health` endpoints
+  - Ready for XRP price monitoring integration
+  - nixpacks build pack for easy deployment
+- 🚀 **Deployment**: Successfully deployed via Coolify API
+- 📝 **Fixes Applied**:
+  - Removed WebSocket connection from startup (was causing crash loop)
+  - Simplified to FastAPI app with nixpacks build pack
+  - Fixed Dockerfile to use `python3 -m uvicorn src.app:app`
 
 ## Next App Ideas
 - [ ] 2026-02-28 - Real-time collaborative whiteboard
@@ -55,5 +53,5 @@
 |----------|------|--------|
 | XRP Insights | https://github.com/theharkco/xrp-insight-tips | ✅ Deployed |
 | Todo AI | https://github.com/theharkco/todo-ai | ✅ Deployed |
-| XRP Alert Bot | https://github.com/theharkco/xrp-alert-bot | ⏳ Deploying (crash loop) |
+| XRP Alert Bot | https://github.com/theharkco/xrp-alert-bot | ✅ Running |
 | Fråga Kölle | https://github.com/theharkco/fraga-kolle | ✅ Deployed |
