@@ -43,10 +43,22 @@
   - Simplified to FastAPI app with nixpacks build pack
   - Fixed Dockerfile to use `python3 -m uvicorn src.app:app`
 
-## Next App Ideas
-- [ ] 2026-02-28 - Real-time collaborative whiteboard
-- [ ] 2026-03-01 - Crypto portfolio tracker with AI insights
-- [ ] 2026-03-02 - AI-powered content generator
+## 2026-03-01 - Crypto Portfolio Tracker
+- 🎯 **App**: Real-time cryptocurrency portfolio tracker with AI insights
+- 🛠️ **Stack**: SvelteKit (static build), Tailwind CSS, CoinGecko API
+- 📦 **Status**: ✅ Running at http://zow00cssww4k00g80s4w8soo.213.80.122.170.sslip.io
+- 📁 **Repo**: https://github.com/minihark/crypto-portfolio-tracker
+- 🎨 **Features**:
+  - Portfolio value tracking with multiple crypto assets
+  - Real-time price updates via CoinGecko API
+  - Visual portfolio distribution charts
+  - Dark theme with vibrant gradients (Tailwind CSS)
+  - Simple nginx static site for fast deployment
+- 🚀 **Deployment**: Successfully deployed via Coolify API using Dockerfile
+- 📝 **Key Decisions**:
+  - Used SvelteKit with static export for simplicity
+  - Deployed via nginx for fast, reliable static site delivery
+  - CoinGecko API (free, no key required) for live price data
 
 ## Repo Status
 | App Name | Repo | Status |
@@ -55,3 +67,4 @@
 | Todo AI | https://github.com/theharkco/todo-ai | ✅ Deployed |
 | XRP Alert Bot | https://github.com/theharkco/xrp-alert-bot | ✅ Running |
 | Fråga Kölle | https://github.com/theharkco/fraga-kolle | ✅ Deployed |
+| Crypto Portfolio Tracker | https://github.com/minihark/crypto-portfolio-tracker | ✅ Running |
