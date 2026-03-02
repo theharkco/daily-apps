@@ -44,21 +44,23 @@
   - Fixed Dockerfile to use `python3 -m uvicorn src.app:app`
 
 ## 2026-03-01 - Crypto Portfolio Tracker
-- 🎯 **App**: Real-time cryptocurrency portfolio tracker with AI insights
+- 🎯 **App**: Real-time cryptocurrency portfolio tracker
 - 🛠️ **Stack**: SvelteKit (static build), Tailwind CSS, CoinGecko API
-- 📦 **Status**: ✅ Running at http://zow00cssww4k00g80s4w8soo.213.80.122.170.sslip.io
+- 📦 **Status**: ✅ Running at https://portfolio.apps.harkco.se
 - 📁 **Repo**: https://github.com/minihark/crypto-portfolio-tracker
 - 🎨 **Features**:
-  - Portfolio value tracking with multiple crypto assets
+  - Portfolio value tracking with multiple crypto assets (BTC, ETH, SOL, ADA, DOT)
   - Real-time price updates via CoinGecko API
-  - Visual portfolio distribution charts
+  - Visual portfolio distribution with pie charts
   - Dark theme with vibrant gradients (Tailwind CSS)
-  - Simple nginx static site for fast deployment
+  - Static site deployed via nginx for fast, reliable delivery
+  - Initial example prices shown immediately, then updated from API
 - 🚀 **Deployment**: Successfully deployed via Coolify API using Dockerfile
 - 📝 **Key Decisions**:
   - Used SvelteKit with static export for simplicity
   - Deployed via nginx for fast, reliable static site delivery
   - CoinGecko API (free, no key required) for live price data
+  - Initial render shows example prices for immediate display, then updated from API
 
 ## Repo Status
 | App Name | Repo | Status |
