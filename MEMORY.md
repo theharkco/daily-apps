@@ -27,6 +27,40 @@ Keep it concise and focused on what's important for you to recall.
 
 ---
 
+## 🚀 Daily Creative Dev Project Workflow
+
+### Project Structure
+- **Workspace**: `/Users/minihark/.openclaw/workspace`
+- **Daily Apps**: `/Users/minihark/.openclaw/workspace/daily-apps/`
+- **Tracker**: `daily-apps/daily-app.md`
+
+### Project Template
+Each daily app follows this pattern:
+1. Initialize Next.js with `npx create-next-app@latest . --typescript --tailwind --app --no-src-dir --import-alias "@/*"`
+2. Set up shadcn/ui with base color "Neutral"
+3. Add required UI components
+4. Implement API routes for backend functionality
+5. Create main page and subpages
+6. Create `.env.local.example` for environment variables
+7. Initialize git and push to GitHub
+8. Deploy to Coolify via UI or API
+
+### Coolify Deployment
+- **URL**: https://apps.harkco.se
+- **Method**: Dashboard → Create New Resource → GitHub
+- **Template**: Select "Public repository" option
+- **Build**: Nixpacks for Next.js
+- **Auto-deploy**: Enable for automatic CI/CD
+
+### Environment Setup
+- `.env.local` contains API keys (not committed)
+- `.env.local.example` provides template for others
+- Always check for existing `.env.local` before creating
+
+**Security**: API keys never committed to git; use `.env.local` and `.gitignore`.
+
+---
+
 ## GitHub Access
 
 GitHub authentication is managed via 1Password:
@@ -40,6 +74,35 @@ GitHub authentication is managed via 1Password:
 **Usage:** The PAT is used with `gh` CLI and GitHub API for repository operations. Authentication is done via `echo <token> | gh auth login --with-token`.
 
 **Security:** Token stored in 1Password vault with minimal required scopes (`repo` for full repository access).
+
+---
+
+## 📓 AI Journal Assistant - Project Notes
+
+**Project Date**: 2026-03-03
+
+**App**: AI Journal Assistant - Transform casual notes into well-written journal entries using OpenAI
+
+**Tech Stack**: Next.js 16.1.6 (Turbopack), TypeScript, Tailwind CSS v4, OpenAI API
+
+**GitHub Repo**: https://github.com/minihark/ai-journal
+
+**Key Features**:
+- OpenAI GPT-4o-mini for journal generation
+- Server-side API routes for secure API key handling
+- LocalStorage for journal persistence
+- Journal browser with delete functionality
+- Export entries as markdown files
+
+**Important Files**:
+- `lib/ai.ts` - OpenAI client and utilities
+- `app/api/generate/route.ts` - API endpoint
+- `app/page.tsx` - Main landing page
+- `app/journal/page.tsx` - Journal browser
+
+**Environment Required**: `OPENAI_API_KEY` in `.env.local`
+
+**URL**: https://ai-journal.apps.harkco.se (pending deployment)
 
 ---
 

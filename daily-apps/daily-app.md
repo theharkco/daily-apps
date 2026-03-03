@@ -43,6 +43,24 @@
   - Simplified to FastAPI app with nixpacks build pack
   - Fixed Dockerfile to use `python3 -m uvicorn src.app:app`
 
+## 2026-03-03 - AI Journal Assistant
+- 🎯 **App**: AI-powered journal entry generator from daily notes
+- 🛠️ **Stack**: Next.js 16.1.6 (Turbopack), TypeScript, Tailwind CSS v4, OpenAI API
+- 📦 **Status**: ✅ Running locally, ready for deployment
+- 🎨 **Features**:
+  - AI transformation of casual notes into well-written journal entries
+  - Key point extraction from daily thoughts
+  - Journal browser to view and manage past entries
+  - Export entries as markdown files
+  - Responsive design with calming UI
+- 🚀 **Deployment**: Ready for Coolify deployment via GitHub
+- 📝 **Setup**:
+  - Create `.env.local` with `OPENAI_API_KEY`
+  - Run `npm run dev` for local development
+  - Deploy via GitHub repository: https://github.com/minihark/ai-journal
+  - URL: https://ai-journal.apps.harkco.se (pending deployment)
+- 📁 **Repo**: https://github.com/minihark/ai-journal
+
 ## 2026-03-01 - Crypto Portfolio Tracker
 - 🎯 **App**: Real-time cryptocurrency portfolio tracker
 - 🛠️ **Stack**: SvelteKit (static build), Tailwind CSS, CoinGecko API
@@ -70,3 +88,4 @@
 | XRP Alert Bot | https://github.com/theharkco/xrp-alert-bot | ✅ Running |
 | Fråga Kölle | https://github.com/theharkco/fraga-kolle | ✅ Deployed |
 | Crypto Portfolio Tracker | https://github.com/minihark/crypto-portfolio-tracker | ✅ Running |
+| AI Journal Assistant | https://github.com/minihark/ai-journal | 🚧 In Progress |

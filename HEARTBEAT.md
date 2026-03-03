@@ -41,6 +41,9 @@
 - **XRP Alert Bot**: `pssk8o8o8swg0cc88ogk0wg4` → `https://xrp-alerts.apps.harkco.se`
 - **Fraga Kölle**: `bkc848gkccww4k4ws00cw00k` → `https://fragakolle.se`
 
+# Pending Deployments
+- **AI Journal Assistant**: Repository created at https://github.com/minihark/ai-journal, pending deployment to Coolify
+
 # Other Periodic Checks
 - Email - Any urgent unread messages?
 - Calendar - Upcoming events in next 24-48h?
