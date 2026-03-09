@@ -1,5 +1,22 @@
 # Daily Creative Dev App Tracker
 
+## 2026-03-09 - Time Capsule
+- 🎯 **App**: Message to your future self - seal thoughts for the future
+- 🛠️ **Stack**: Next.js 14 (App Router), TypeScript, Tailwind CSS v4, shadcn/ui, date-fns
+- 📦 **Status**: ✅ Code pushed to GitHub, ready for deployment via Coolify UI
+- 🎨 **Features**:
+  - Create time capsules with messages and unlock dates
+  - Lock screen with countdown timer to your capsules
+  - Beautiful dark aesthetic with glowing "sealed" effects
+  - LocalStorage persistence
+  - Overdue capsules highlighted in amber
+  - Unlocked capsules shown with green accent
+- 🚀 **Deployment**: Manual deployment via Coolify UI recommended
+  - Repository: https://github.com/theharkco/time-capsule
+  - Build pack: Nixpacks (Node.js)
+  - Port: 3000
+- 📁 **Repo**: https://github.com/theharkco/time-capsule
+
 ## 2026-02-26 - XRP Insights (RipplePay)
 - 🎯 **App**: XRP Micropayments platform with polished tipping UI
 - 🛠️ **Stack**: Next.js 16.1.6 (Turbopack), TypeScript, Tailwind CSS v4
@@ -110,6 +127,22 @@
   - Build pack: Nixpacks (Python)
   - Port: 8000
 - 📁 **Repo**: https://github.com/theharkco/recipe-roulette
+
+## 2026-03-08 - MoodCanvas
+- 🎯 **App**: Collaborative mood-based art generator that transforms emotions into visual abstract artwork
+- 🛠️ **Stack**: SvelteKit, TypeScript, Tailwind CSS v4
+- 📦 **Status**: ✅ Code pushed to GitHub, ready for deployment via Coolify UI
+- 🎨 **Features**:
+  - Generate abstract artwork based on mood (joy, melancholy, excitement, calm)
+  - Color theory-based palettes for each emotion
+  - Beautiful dark theme UI with smooth animations
+  - Gallery view with mood filtering
+  - LocalStorage persistence for your creations
+- 🚀 **Deployment**: Manual deployment via Coolify UI recommended
+  - Repository: https://github.com/theharkco/mood-canvas
+  - Build pack: Nixpacks (Node.js)
+  - Port: 3000
+- 📁 **Repo**: https://github.com/theharkco/mood-canvas
 
 ## Repo Status
 | App Name | Repo | Status |
