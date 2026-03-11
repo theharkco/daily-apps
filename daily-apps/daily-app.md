@@ -83,14 +83,18 @@
 ## 2026-03-03 - AI Journal Assistant
 - 🎯 **App**: AI-powered journal entry generator from daily notes
 - 🛠️ **Stack**: Next.js 16.1.6 (Turbopack), TypeScript, Tailwind CSS v4, OpenAI API
-- 📦 **Status**: ✅ Deployed at http://jci666qe8g73ipx41a83tykr.213.80.122.170.sslip.io
+- 📦 **Status**: 🔄 Recreating deployment with explicit start command
 - 🎨 **Features**:
   - AI transformation of casual notes into well-written journal entries
   - Key point extraction from daily thoughts
   - Journal browser to view and manage past entries
   - Export entries as markdown files
   - Responsive design with calming UI
-- 🚀 **Deployment**: ✅ Deployed via Coolify API (UUID: jci666qe8g73ipx41a83tykr)
+- 🚀 **Deployment**: ✅ Recreated via Coolify API (UUID: ksfqpljix3e83yi0c0wi8ycu)
+  - Repository: https://github.com/minihark/ai-journal
+  - Build pack: Nixpacks (Node.js)
+  - Port: 5173
+  - Start command: `npm run start -- --port $PORT`
   - **Note**: Configure `OPENAI_API_KEY` in Coolify dashboard for full functionality
 - 📁 **Repo**: https://github.com/minihark/ai-journal
 
@@ -129,7 +133,7 @@
 ## 2026-03-07 - Recipe Roulette
 - 🎯 **App**: Fun recipe generator that matches ingredients to delicious recipes
 - 🛠️ **Stack**: Python, FastAPI, Vanilla HTML/CSS/JS with gradient aesthetics
-- 📦 **Status**: ✅ Deployed at http://hguu7wnjhpg1j1ippl3hzuqo.213.80.122.170.sslip.io
+- 📦 **Status**: 🔄 Recreating deployment with explicit start command
 - 🎨 **Features**:
   - Smart recipe matching based on ingredients you have
   - Random mode with dice roll animation 🎲
@@ -137,26 +141,28 @@
   - Match percentage indicator
   - Missing ingredients highlighted in red
   - Fast API responses with Python/FastAPI
-- 🚀 **Deployment**: ✅ Deployed via Coolify API (UUID: hguu7wnjhpg1j1ippl3hzuqo)
+- 🚀 **Deployment**: ✅ Recreated via Coolify API (UUID: li2z1ackat3rcdcmzll16j9r)
   - Repository: https://github.com/theharkco/recipe-roulette
   - Build pack: Nixpacks (Python)
   - Port: 8000
+  - Start command: `uvicorn src.app:app --host 0.0.0.0 --port $PORT`
 - 📁 **Repo**: https://github.com/theharkco/recipe-roulette
 
 ## 2026-03-08 - MoodCanvas
 - 🎯 **App**: Collaborative mood-based art generator that transforms emotions into visual abstract artwork
 - 🛠️ **Stack**: SvelteKit, TypeScript, Tailwind CSS v4
-- 📦 **Status**: ✅ Deployed at http://tuxw7nasaqbf3x11dek36ac3.213.80.122.170.sslip.io
+- 📦 **Status**: 🔄 Recreating deployment with explicit start command
 - 🎨 **Features**:
   - Generate abstract artwork based on mood (joy, melancholy, excitement, calm)
   - Color theory-based palettes for each emotion
   - Beautiful dark theme UI with smooth animations
   - Gallery view with mood filtering
   - LocalStorage persistence for your creations
-- 🚀 **Deployment**: ✅ Deployed via Coolify API (UUID: tuxw7nasaqbf3x11dek36ac3)
+- 🚀 **Deployment**: ✅ Recreated via Coolify API (UUID: ntmvxr6k0y8ah5ozaoa4szb4)
   - Repository: https://github.com/theharkco/mood-canvas
   - Build pack: Nixpacks (Node.js)
   - Port: 3000
+  - Start command: `npm run build && npm run preview -- --port $PORT`
 - 📁 **Repo**: https://github.com/theharkco/mood-canvas
 
 ## 2026-03-11 - Dream Journal AI
