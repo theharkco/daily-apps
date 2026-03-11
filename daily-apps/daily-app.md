@@ -134,7 +134,7 @@
 ## 2026-03-07 - Recipe Roulette
 - 🎯 **App**: Fun recipe generator that matches ingredients to delicious recipes
 - 🛠️ **Stack**: Python, FastAPI, Vanilla HTML/CSS/JS with gradient aesthetics
-- 📦 **Status**: ✅ Code pushed to GitHub, ready for deployment via Coolify UI
+- 📦 **Status**: ✅ Deployed at http://hguu7wnjhpg1j1ippl3hzuqo.213.80.122.170.sslip.io
 - 🎨 **Features**:
   - Smart recipe matching based on ingredients you have
   - Random mode with dice roll animation 🎲
@@ -142,7 +142,7 @@
   - Match percentage indicator
   - Missing ingredients highlighted in red
   - Fast API responses with Python/FastAPI
-- 🚀 **Deployment**: Manual deployment via Coolify UI recommended
+- 🚀 **Deployment**: ✅ Deployed via Coolify API (UUID: hguu7wnjhpg1j1ippl3hzuqo)
   - Repository: https://github.com/theharkco/recipe-roulette
   - Build pack: Nixpacks (Python)
   - Port: 8000
@@ -151,18 +151,35 @@
 ## 2026-03-08 - MoodCanvas
 - 🎯 **App**: Collaborative mood-based art generator that transforms emotions into visual abstract artwork
 - 🛠️ **Stack**: SvelteKit, TypeScript, Tailwind CSS v4
-- 📦 **Status**: ✅ Code pushed to GitHub, ready for deployment via Coolify UI
+- 📦 **Status**: ✅ Deployed at http://tuxw7nasaqbf3x11dek36ac3.213.80.122.170.sslip.io
 - 🎨 **Features**:
   - Generate abstract artwork based on mood (joy, melancholy, excitement, calm)
   - Color theory-based palettes for each emotion
   - Beautiful dark theme UI with smooth animations
   - Gallery view with mood filtering
   - LocalStorage persistence for your creations
-- 🚀 **Deployment**: Manual deployment via Coolify UI recommended
+- 🚀 **Deployment**: ✅ Deployed via Coolify API (UUID: tuxw7nasaqbf3x11dek36ac3)
   - Repository: https://github.com/theharkco/mood-canvas
   - Build pack: Nixpacks (Node.js)
   - Port: 3000
 - 📁 **Repo**: https://github.com/theharkco/mood-canvas
+
+## 2026-03-11 - Dream Journal AI
+- 🎯 **App**: Mystical dream journal with pattern analysis and beautiful UI
+- 🛠️ **Stack**: React + TypeScript + Tailwind CSS v4 + Vite
+- 📦 **Status**: ✅ Deployed at http://wgm6cw8vcwjr5c4n4tyeu9gq.213.80.122.170.sslip.io
+- 🎨 **Features**:
+  - Dream entry form with mood selector (6 types)
+  - Symbol tagging with comma-separated input
+  - Analysis dashboard showing mood distribution and top recurring symbols
+  - Canvas-based twinkling starry background animation
+  - Glassmorphism card effects with backdrop blur
+  - LocalStorage persistence (privacy-first!)
+- 🚀 **Deployment**: ✅ Deployed via Coolify API (UUID: wgm6cw8vcwjr5c4n4tyeu9gq)
+  - Repository: https://github.com/theharkco/dream-journal-ai
+  - Build pack: Nixpacks (Node.js)
+  - Port: 5173
+- 📁 **Repo**: https://github.com/theharkco/dream-journal-ai
 
 ## Repo Status
 | App Name | Repo | Status |
@@ -173,5 +190,6 @@
 | Fråga Kölle | https://github.com/theharkco/fraga-kolle | ✅ Deployed |
 | Crypto Portfolio Tracker | https://github.com/minihark/crypto-portfolio-tracker | ✅ Running |
 | AI Journal Assistant | https://github.com/minihark/ai-journal | 🚧 In Progress |
-| Recipe Roulette | https://github.com/theharkco/recipe-roulette | ✅ Ready for deployment |
-| Dream Journal AI | https://github.com/theharkco/dream-journal-ai | ✅ Built and pushed - ready for deployment |
+| Recipe Roulette | https://github.com/theharkco/recipe-roulette | ✅ Deployed |
+| MoodCanvas | https://github.com/theharkco/mood-canvas | ✅ Deployed |
+| Dream Journal AI | https://github.com/theharkco/dream-journal-ai | ✅ Deployed |
