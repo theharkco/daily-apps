@@ -83,20 +83,15 @@
 ## 2026-03-03 - AI Journal Assistant
 - 🎯 **App**: AI-powered journal entry generator from daily notes
 - 🛠️ **Stack**: Next.js 16.1.6 (Turbopack), TypeScript, Tailwind CSS v4, OpenAI API
-- 📦 **Status**: 🔄 Re-deploying (UUID: e8o08s0kskkg0gsss4sw04sc) - needs OpenAI API key configured in Coolify
-- **Note**: Requires manual setup of `OPENAI_API_KEY` environment variable in Coolify dashboard
+- 📦 **Status**: ✅ Deployed at http://jci666qe8g73ipx41a83tykr.213.80.122.170.sslip.io
 - 🎨 **Features**:
   - AI transformation of casual notes into well-written journal entries
   - Key point extraction from daily thoughts
   - Journal browser to view and manage past entries
   - Export entries as markdown files
   - Responsive design with calming UI
-- 🚀 **Deployment**: Ready for Coolify deployment via GitHub
-- 📝 **Setup**:
-  - Create `.env.local` with `OPENAI_API_KEY`
-  - Run `npm run dev` for local development
-  - Deploy via GitHub repository: https://github.com/minihark/ai-journal
-  - URL: https://ai-journal.apps.harkco.se (pending deployment)
+- 🚀 **Deployment**: ✅ Deployed via Coolify API (UUID: jci666qe8g73ipx41a83tykr)
+  - **Note**: Configure `OPENAI_API_KEY` in Coolify dashboard for full functionality
 - 📁 **Repo**: https://github.com/minihark/ai-journal
 
 ## 2026-03-05 - Wisdom Flow
@@ -189,7 +184,7 @@
 | XRP Alert Bot | https://github.com/theharkco/xrp-alert-bot | ✅ Running |
 | Fråga Kölle | https://github.com/theharkco/fraga-kolle | ✅ Deployed |
 | Crypto Portfolio Tracker | https://github.com/minihark/crypto-portfolio-tracker | ✅ Running |
-| AI Journal Assistant | https://github.com/minihark/ai-journal | 🚧 In Progress |
+| AI Journal Assistant | https://github.com/minihark/ai-journal | ✅ Deployed |
 | Recipe Roulette | https://github.com/theharkco/recipe-roulette | ✅ Deployed |
 | MoodCanvas | https://github.com/theharkco/mood-canvas | ✅ Deployed |
 | Dream Journal AI | https://github.com/theharkco/dream-journal-ai | ✅ Deployed |
