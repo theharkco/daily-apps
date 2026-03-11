@@ -106,6 +106,43 @@ GitHub authentication is managed via 1Password:
 
 ---
 
+## ✨ Dream Journal AI - Project Notes
+
+**Project Date**: 2026-03-11
+
+**App**: Dream Journal AI - Mystical dream journal with pattern analysis and beautiful UI
+
+**Tech Stack**: React 18 + TypeScript + Tailwind CSS v4 + Vite
+
+**GitHub Repo**: https://github.com/theharkco/dream-journal-ai
+
+**Key Features**:
+- Dream entry form with mood selector (6 types: Normal, Vivid, Lucid, Strange, Recurring, Nightmare)
+- Symbol tagging with comma-separated input
+- Analysis dashboard showing mood distribution and top recurring symbols
+- Canvas-based twinkling starry background animation
+- Glassmorphism card effects with backdrop blur
+- All data stored locally in browser (no server required!)
+
+**Important Files**:
+- `App.tsx` - Main app with LocalStorage persistence
+- `components/DreamForm.tsx` - Entry form with validation
+- `components/AnalysisDashboard.tsx` - Pattern analysis UI
+- `components/StarryBackground.tsx` - Canvas star animation
+- `index.css` - Custom Tailwind theme with purple/indigo palette
+
+**Deployment**: Built and pushed to GitHub, ready for Coolify deployment via UI
+- Build pack: Nixpacks (Node.js)
+- Port: 5173
+
+**Design Notes**:
+- Used purple/indigo gradient theme (#2e1065 to #4338ca)
+- Tailwind v4 @theme directive for custom colors
+- Glassmorphism effect: rgba backgrounds + backdrop-blur
+- Canvas animation with requestAnimationFrame for smooth stars
+
+---
+
 ## Zoho Mail Configuration
 
 Email account: `minihark@zohomail.eu`

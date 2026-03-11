@@ -1,17 +1,37 @@
 # Daily Creative Dev App Tracker
 
+## 2026-03-10 - Zen Garden
+- 🎯 **App**: Peaceful digital zen garden with drag & drop elements
+- 🛠️ **Stack**: SvelteKit, TypeScript, Tailwind CSS v4, static adapter
+- 📦 **Status**: ✅ Built and tested - ready for deployment
+- 🎨 **Features**:
+  - Drag & drop zen elements (stones, lanterns, crystals, trees)
+  - Raked sand background pattern
+  - Save/load garden layouts via LocalStorage
+  - Randomize layout button
+  - Clear all button
+  - Calming aesthetic with earth tones
+- 🚀 **Deployment**: Manual deployment via Coolify UI recommended
+  - Repository: https://github.com/theharkco/zen-garden
+  - Build pack: Nixpacks (Node.js)
+  - Port: 3000
+- 📁 **Repo**: https://github.com/theharkco/zen-garden
+
 ## 2026-03-09 - Time Capsule
 - 🎯 **App**: Message to your future self - seal thoughts for the future
 - 🛠️ **Stack**: Next.js 14 (App Router), TypeScript, Tailwind CSS v4, shadcn/ui, date-fns
-- 📦 **Status**: ✅ Code pushed to GitHub, ready for deployment via Coolify UI
+- 📦 **Status**: ✅ Redesigned with modern UI - deploying updates
 - 🎨 **Features**:
   - Create time capsules with messages and unlock dates
   - Lock screen with countdown timer to your capsules
-  - Beautiful dark aesthetic with glowing "sealed" effects
+  - 🆕 Modern design with animated background orbs
+  - 🆕 Gradient progress bars showing time remaining
+  - 🆕 Enhanced card hover effects and animations
+  - 🆕 Improved typography and spacing
   - LocalStorage persistence
   - Overdue capsules highlighted in amber
   - Unlocked capsules shown with green accent
-- 🚀 **Deployment**: Manual deployment via Coolify UI recommended
+- 🚀 **Deployment**: ✅ Code pushed - rebuilding on Coolify
   - Repository: https://github.com/theharkco/time-capsule
   - Build pack: Nixpacks (Node.js)
   - Port: 3000
@@ -154,3 +174,4 @@
 | Crypto Portfolio Tracker | https://github.com/minihark/crypto-portfolio-tracker | ✅ Running |
 | AI Journal Assistant | https://github.com/minihark/ai-journal | 🚧 In Progress |
 | Recipe Roulette | https://github.com/theharkco/recipe-roulette | ✅ Ready for deployment |
+| Dream Journal AI | https://github.com/theharkco/dream-journal-ai | ✅ Built and pushed - ready for deployment |
