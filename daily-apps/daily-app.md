@@ -218,4 +218,4 @@
 | Recipe Roulette | https://github.com/theharkco/recipe-roulette | ✅ Deployed |
 | MoodCanvas | https://github.com/theharkco/mood-canvas | ✅ Deployed |
 | Dream Journal AI | https://github.com/theharkco/dream-journal-ai | ✅ Deployed |
-| Memory Palace | https://github.com/theharkco/memory-palace | ✅ Ready for deployment |
+| Memory Palace | https://github.com/theharkco/memory-palace | 🔄 Needs deployment (1Password auth issue) |
