@@ -165,6 +165,24 @@
   - Start command: `npm run build && npm run preview -- --port $PORT`
 - 📁 **Repo**: https://github.com/theharkco/mood-canvas
 
+## 2026-03-12 - Memory Palace
+- 🎯 **App**: Visual memory aid using the ancient Method of Loci technique
+- 🛠️ **Stack**: Python 3.11, Streamlit, Docker
+- 📦 **Status**: ✅ Built and tested - ready for deployment
+- 🎨 **Features**:
+  - Create virtual "rooms" as memory spaces
+  - Place "memory objects" with descriptions and precise locations
+  - Beautiful purple gradient UI with atmospheric design
+  - Stats dashboard (rooms, objects, recall rate)
+  - Room grid view with object management
+  - Method of Loci mnemonic support
+- 🚀 **Deployment**: ✅ Code pushed to GitHub
+  - Repository: https://github.com/theharkco/memory-palace
+  - Build pack: Dockerfile
+  - Port: 8501
+  - Start command: `streamlit run src/app.py --server.port=8501 --server.address=0.0.0.0`
+- 📁 **Repo**: https://github.com/theharkco/memory-palace
+
 ## 2026-03-11 - Dream Journal AI
 - 🎯 **App**: Mystical dream journal with pattern analysis and beautiful UI
 - 🛠️ **Stack**: React + TypeScript + Tailwind CSS v4 + Vite
