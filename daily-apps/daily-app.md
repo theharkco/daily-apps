@@ -176,12 +176,17 @@
   - Stats dashboard (rooms, objects, recall rate)
   - Room grid view with object management
   - Method of Loci mnemonic support
-- 🚀 **Deployment**: 🔄 Ready for Coolify deployment (manual UI recommended)
+- 🚀 **Deployment**: ⏸️ **Needs manual deployment** (1Password CLI not configured)
   - Repository: https://github.com/theharkco/memory-palace
   - Build pack: Dockerfile (Python 3.11)
   - Port: 8501
   - Start command: `streamlit run src/app.py --server.port=8501 --server.address=0.0.0.0`
-  - **Action needed**: Deploy via Coolify UI at https://apps.harkco.se
+  - **Action needed**: 
+    - Open https://apps.harkco.se
+    - Sign in with Coolify credentials
+    - Create new resource → GitHub → Select `theharkco/memory-palace`
+    - Use Dockerfile build pack, port 8501
+    - Enable auto-deploy
 - 📁 **Repo**: https://github.com/theharkco/memory-palace
 
 ## 2026-03-11 - Dream Journal AI
