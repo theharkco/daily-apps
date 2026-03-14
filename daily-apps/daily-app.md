@@ -1,5 +1,26 @@
 # Daily Creative Dev App Tracker
 
+## 2026-03-14 - Mood Mix 🎵
+
+- 🎯 **App**: Mood-based music discovery - pick an emoji, get curated Spotify playlists for your vibe
+- 🛠️ **Stack**: Vanilla HTML/CSS/JS, Tailwind CSS (CDN)
+- 📦 **Status**: ✅ Built and pushed to GitHub - ready for deployment
+- 🎨 **Features**:
+  - **12 Mood Options**: Chill ⚡, Energetic 😊, Happy 🌙, Melancholy 🌧️, Romantic 💕, Party 🎉, Focus 🧠, Workout 💪, Sleep 💤, Sad 😢, Excited 🤩, Nostalgic 📻
+  - **Curated Playlists**: 4 Spotify playlists per mood
+  - **Beautiful UI**: Purple/pink gradient design with smooth animations
+  - **One-Click Listening**: Direct links to Spotify web player
+  - **Zero Build**: Pure vanilla HTML/CSS/JS - instant load times!
+  - **Responsive**: Works great on mobile and desktop
+- 🚀 **Deployment**: Ready for Coolify
+  - Repository: https://github.com/theharkco/mood-mixer
+  - Build pack: Static Site
+  - Port: 80
+  - URL: https://mood-mixer.apps.harkco.se
+- 📁 **Repo**: https://github.com/theharkco/mood-mixer
+
+---
+
 ## 2026-03-13 - Sound Canvas
 - 🎯 **App**: Ambient soundscape mixer with AI-powered mood matching - create, mix, and record custom ambient soundscapes that adapt to your emotional state
 - 🛠️ **Stack**: Vanilla JavaScript (no frameworks!), Web Audio API, Python/FastAPI for AI mood analysis
