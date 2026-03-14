@@ -143,6 +143,34 @@ GitHub authentication is managed via 1Password:
 
 ---
 
+## 🎵 Mood Mix - Project Notes (2026-03-14)
+
+**App**: Mood-based music discovery tool - pick an emoji, get curated Spotify playlists
+
+**Tech Stack**: Vanilla HTML/CSS/JS + Tailwind CSS (CDN) - no build process needed!
+
+**GitHub Repo**: https://github.com/theharkco/mood-mixer
+
+**Key Features**:
+- 12 mood options mapped to emojis (Chill ⚡, Energetic 😊, Happy 🌙, Melancholy 🌧️, Romantic 💕, Party 🎉, Focus 🧠, Workout 💪, Sleep 💤, Sad 😢, Excited 🤩, Nostalgic 📻)
+- Each mood returns 4 curated Spotify playlists
+- Beautiful purple/pink gradient UI with smooth animations
+- One-click Spotify links
+- Fully responsive design
+- Zero dependencies - instant load times
+
+**Design Notes**:
+- Used CSS variables for consistent theming (--bg-dark, --card-bg, --primary, --accent)
+- Gradient text with bg-clip-text
+- Floating animation for header
+- Pulse animation for CTA button
+- Card hover effects with transform and shadow transitions
+- Animated playlist cards with slide-in effect
+
+**Deployment**: Ready for Coolify (static site, port 80)
+
+---
+
 ## Zoho Mail Configuration
 
 Email account: `minihark@zohomail.eu`
