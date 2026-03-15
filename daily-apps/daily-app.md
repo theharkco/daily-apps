@@ -13,7 +13,7 @@
   - **Category Browsing**: Browse by category with filtered views
   - **29 Curated Discoveries**: Hand-picked items including books (Sapiens, Project Hail Mary), podcasts (Hardcore History, Lex Fridman), places (Gothenburg spots), music (Tame Impala, Radiohead, Kendrick Lamar), quotes (Einstein, Marcus Aurelius), and tools (Rust, Obsidian, Notion)
   - **Keyboard Shortcut**: Press Space/Enter for instant discovery
-- 🚀 **Deployment**: Ready for Coolify
+- 🚀 **Deployment**: Pending deployment
   - Repository: https://github.com/theharkco/serendipity-engine
   - Build pack: Dockerfile (Rust)
   - Port: 8080
