@@ -64,29 +64,6 @@
 
 ---
 
-## 2026-03-12 - Memory Palace
-- 🎯 **App**: Visual memory aid using the ancient Method of Loci technique
-- 🛠️ **Stack**: Python 3.11, Streamlit, Docker
-- 📦 **Status**: ✅ Built and tested - ready for deployment
-- 🎨 **Features**:
-  - Create virtual "rooms" as memory spaces
-  - Place "memory objects" with descriptions and precise locations
-  - Beautiful purple gradient UI with atmospheric design
-  - Stats dashboard (rooms, objects, recall rate)
-  - Room grid view with object management
-  - Method of Loci mnemonic support
-- 🚀 **Deployment**: ⏸️ **Needs manual deployment** (1Password CLI not configured)
-  - Repository: https://github.com/theharkco/memory-palace
-  - Build pack: Dockerfile (Python 3.11)
-  - Port: 8501
-  - Start command: `streamlit run src/app.py --server.port=8501 --server.address=0.0.0.0`
-  - **Action needed**: 
-    - Open https://apps.harkco.se
-    - Sign in with Coolify credentials
-    - Create new resource → GitHub → Select `theharkco/memory-palace`
-    - Use Dockerfile build pack, port 8501
-    - Enable auto-deploy
-- 📁 **Repo**: https://github.com/theharkco/memory-palace
 
 ---
 
@@ -166,18 +143,17 @@
 ## 2026-03-03 - AI Journal Assistant
 - 🎯 **App**: AI-powered journal entry generators from daily notes
 - 🛠️ **Stack**: Next.js 16.1.6 (Turbopack), TypeScript, Tailwind CSS v4, OpenAI API
-- 📦 **Status**: 🔄 Recreating deployment with explicit start command
+- 📦 **Status**: ✅ **Deployed!** - URL: http://kuo8kmyqtq9p85kya2t8q4kt.213.80.122.170.sslip.io
 - 🎨 **Features**:
   - AI transformation of casual notes into well-written journal entries
   - Key point extraction from daily thoughts
   - Journal browser to view and manage past entries
   - Export entries as markdown files
   - Responsive design with calming UI
-- 🚀 **Deployment**: ✅ Recreated via Coolify API (UUID: ksfqpljix3e83yi0c0wi8ycu)
+- 🚀 **Deployment**: ✅ Successfully deployed via Coolify API
   - Repository: https://github.com/minihark/ai-journal
-  - Build pack: Nixpacks (Node.js)
+  - Build pack: Nixpacks
   - Port: 5173
-  - Start command: `npm run start -- --port $PORT`
   - **Note**: Configure `OPENAI_API_KEY` in Coolify dashboard for full functionality
 - 📁 **Repo**: https://github.com/minihark/ai-journal
 
