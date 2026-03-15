@@ -143,18 +143,17 @@
 ## 2026-03-03 - AI Journal Assistant
 - 🎯 **App**: AI-powered journal entry generators from daily notes
 - 🛠️ **Stack**: Next.js 16.1.6 (Turbopack), TypeScript, Tailwind CSS v4, OpenAI API
-- 📦 **Status**: ✅ **Deployed!** - URL: http://kuo8kmyqtq9p85kya2t8q4kt.213.80.122.170.sslip.io
+- 📦 **Status**: 🔄 Deployed but needs `OPENAI_API_KEY` env var configured in Coolify
+  - Repository: https://github.com/minihark/ai-journal
+  - Build pack: Nixpacks
+  - Port: 5173
 - 🎨 **Features**:
   - AI transformation of casual notes into well-written journal entries
   - Key point extraction from daily thoughts
   - Journal browser to view and manage past entries
   - Export entries as markdown files
   - Responsive design with calming UI
-- 🚀 **Deployment**: ✅ Successfully deployed via Coolify API
-  - Repository: https://github.com/minihark/ai-journal
-  - Build pack: Nixpacks
-  - Port: 5173
-  - **Note**: Configure `OPENAI_API_KEY` in Coolify dashboard for full functionality
+- 🚀 **Deployment**: ✅ Deployed - URL: http://kuo8kmyqtq9p85kya2t8q4kt.213.80.122.170.sslip.io
 - 📁 **Repo**: https://github.com/minihark/ai-journal
 
 ---
