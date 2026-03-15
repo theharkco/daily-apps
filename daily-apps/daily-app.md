@@ -1,5 +1,27 @@
 # Daily Creative Dev App Tracker
 
+## 2026-03-15 - Serendipity Engine 🦀
+
+- 🎯 **App**: Your daily dose of curated discovery - pick a random item from categories like Books, Podcasts, Places, Music, Quotable quotes, Tools, or Experiences
+- 🛠️ **Stack**: Rust, Actix-web, Tailwind CSS (CDN) - **Unique stack for the week!**
+- 📦 **Status**: ✅ Built and pushed to GitHub - ready for deployment
+- 🎨 **Features**:
+  - **7 Categories**: Books 📚, Podcasts 🎙️, Places 🌍, Music 🎵, Quotable 💭, Tools 🛠️, Experiences ✨
+  - **Spark My Curiosity Button**: One-click random discovery with personalized reasons
+  - **Beautiful UI**: Rust-themed gradient background (orange/gold), glassmorphism cards, smooth animations
+  - **Recent Discoveries History**: Track your 5 most recent finds
+  - **Category Browsing**: Browse by category with filtered views
+  - **29 Curated Discoveries**: Hand-picked items including books (Sapiens, Project Hail Mary), podcasts (Hardcore History, Lex Fridman), places (Gothenburg spots), music (Tame Impala, Radiohead, Kendrick Lamar), quotes (Einstein, Marcus Aurelius), and tools (Rust, Obsidian, Notion)
+  - **Keyboard Shortcut**: Press Space/Enter for instant discovery
+- 🚀 **Deployment**: Ready for Coolify
+  - Repository: https://github.com/theharkco/serendipity-engine
+  - Build pack: Dockerfile (Rust)
+  - Port: 8080
+  - URL: https://serendipity-engine.apps.harkco.se
+- 📁 **Repo**: https://github.com/theharkco/serendipity-engine
+
+---
+
 ## 2026-03-14 - Mood Mix 🎵
 
 - 🎯 **App**: Mood-based music discovery - pick an emoji, get curated Spotify playlists for your vibe
