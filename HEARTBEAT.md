@@ -1,5 +1,3 @@
-# HEARTBEAT.md
-
 # Daily Creative Dev Task
 - 🎭 Create a new novel web/mobile app daily with creative freedom
 - Stack should vary each day (Next.js, Python, Rust, etc.)
@@ -22,10 +20,16 @@
   - Contains `daily-apps/daily-app.md` with links and status for all apps
 
 # Deployment (Coolify)
-- **API**:
+- **Recommended**: Deploy via UI at https://apps.harkco.se
+  - Go to dashboard → Create New Resource → GitHub
+  - Select "Public repository" option
+  - Enter repository URL: `https://github.com/theharkco/<app-name>`
+  - Configure build settings (Nixpacks for Next.js)
+  - Enable auto-deploy for automatic CI/CD
+- **API** (for advanced use):
   - Base endpoint: `https://apps.harkco.se/api/v1/`
-  - Token: from 1Password vault `minihark` → `Coolify API Token`
-  - Create application: `POST /v1/applications` with project_uuid, server_uuid, environment info, git_repository, etc.
+  - Token: from 1Password vault `minihark` → `GitHub Token`
+  - Create application: `POST /api/v1/applications` with project_uuid, server_uuid, environment info, git_repository, etc.
   - Note: API requires project and server UUIDs from Coolify dashboard
   - Set custom domain name / url: https://<app-name>.apps.harkco.se
   - SSL cert will be auto configured
