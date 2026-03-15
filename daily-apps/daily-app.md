@@ -4,7 +4,7 @@
 
 - 🎯 **App**: Your daily dose of curated discovery - pick a random item from categories like Books, Podcasts, Places, Music, Quotable quotes, Tools, or Experiences
 - 🛠️ **Stack**: Rust, Actix-web, Tailwind CSS (CDN) - **Unique stack for the week!**
-- 📦 **Status**: ✅ **Deployed!** - URL: http://x11ugamjw5due40m6a5kzixb.213.80.122.170.sslip.io
+- 📦 **Status**: ✅ Built and pushed to GitHub - deployment pending (Rust binary needs rebuild)
 - 🎨 **Features**:
   - **7 Categories**: Books 📚, Podcasts 🎙️, Places 🌍, Music 🎵, Quotable 💭, Tools 🛠️, Experiences ✨
   - **Spark My Curiosity Button**: One-click random discovery with personalized reasons
@@ -13,7 +13,7 @@
   - **Category Browsing**: Browse by category with filtered views
   - **29 Curated Discoveries**: Hand-picked items including books (Sapiens, Project Hail Mary), podcasts (Hardcore History, Lex Fridman), places (Gothenburg spots), music (Tame Impala, Radiohead, Kendrick Lamar), quotes (Einstein, Marcus Aurelius), and tools (Rust, Obsidian, Notion)
   - **Keyboard Shortcut**: Press Space/Enter for instant discovery
-- 🚀 **Deployment**: ✅ Successfully deployed via Coolify API
+- 🚀 **Deployment**: Repository ready, needs rebuild
   - Repository: https://github.com/theharkco/serendipity-engine
   - Build pack: Dockerfile (Rust)
   - Port: 8080
