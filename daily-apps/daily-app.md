@@ -303,4 +303,4 @@
 | Memory Palace | https://github.com/theharkco/memory-palace | ✅ Deployed |
 | **Sound Canvas** | https://github.com/theharkco/sound-canvas | ✅ Deployed |
 | Mood Mix | https://github.com/theharkco/mood-mixer | ✅ Deployed |
-| Zen Garden | https://github.com/theharkco/zen-garden | ✅ Deployed |
+| **Zen Garden** | https://github.com/theharkco/zen-garden | ⚠️ 404 - needs rebuild |
