@@ -279,7 +279,7 @@
 ## 2026-03-10 - Zen Garden
 - 🎯 **App**: Peaceful digital zen garden with drag & drop elements
 - 🛠️ **Stack**: SvelteKit, TypeScript, Tailwind CSS v4, static adapter
-- 📦 **Status**: ✅ Built and tested - ready for deployment
+- 📦 **Status**: ✅ **Deployed!** - URL: http://ro4czzywvvbezjo8knclsu2t.213.80.122.170.sslip.io
 - 🎨 **Features**:
   - Drag & drop zen elements (stones, lanterns, crystals, trees)
   - Raked sand background pattern
@@ -287,11 +287,30 @@
   - Randomize layout button
   - Clear all button
   - Calming aesthetic with earth tones
-- 🚀 **Deployment**: Manual deployment via Coolify UI recommended
+- 🚀 **Deployment**: ✅ Successfully deployed via Coolify API
   - Repository: https://github.com/theharkco/zen-garden
-  - Build pack: Nixpacks (Node.js)
+  - Build pack: Nixpacks
   - Port: 3000
 - 📁 **Repo**: https://github.com/theharkco/zen-garden
+
+---
+
+## 2026-03-12 - Memory Palace
+- 🎯 **App**: Visual memory aid using the ancient Method of Loci technique
+- 🛠️ **Stack**: Python 3.11, Streamlit, Docker
+- 📦 **Status**: ✅ **Deployed!** - URL: http://go4ws2simdyuf2uw90nrc7mj.213.80.122.170.sslip.io
+- 🎨 **Features**:
+  - Create virtual "rooms" as memory spaces
+  - Place "memory objects" with descriptions and precise locations
+  - Beautiful purple gradient UI with atmospheric design
+  - Stats dashboard (rooms, objects, recall rate)
+  - Room grid view with object management
+  - Method of Loci mnemonic support
+- 🚀 **Deployment**: ✅ Successfully deployed via Coolify API
+  - Repository: https://github.com/theharkco/memory-palace
+  - Build pack: Dockerfile (Python 3.11)
+  - Port: 8501
+- 📁 **Repo**: https://github.com/theharkco/memory-palace
 
 ---
 
@@ -307,5 +326,7 @@
 | Recipe Roulette | https://github.com/theharkco/recipe-roulette | ✅ Deployed |
 | MoodCanvas | https://github.com/theharkco/mood-canvas | ✅ Deployed |
 | Dream Journal AI | https://github.com/theharkco/dream-journal-ai | ✅ Deployed |
-| Memory Palace | https://github.com/theharkco/memory-palace | 🔄 Needs deployment (1Password CLI not configured) |
-| **Sound Canvas** | https://github.com/theharkco/sound-canvas | 🚀 Creating now |
+| Memory Palace | https://github.com/theharkco/memory-palace | ✅ Deployed |
+| **Sound Canvas** | https://github.com/theharkco/sound-canvas | ✅ Deployed |
+| Mood Mix | https://github.com/theharkco/mood-mixer | ✅ Deployed |
+| Zen Garden | https://github.com/theharkco/zen-garden | ✅ Deployed |
