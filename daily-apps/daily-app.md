@@ -26,7 +26,7 @@
 
 - 🎯 **App**: Mood-based music discovery - pick an emoji, get curated Spotify playlists for your vibe
 - 🛠️ **Stack**: Vanilla HTML/CSS/JS, Tailwind CSS (CDN)
-- 📦 **Status**: ✅ Built and pushed to GitHub - ready for deployment
+- 📦 **Status**: ✅ **Deployed!** - URL: http://tliljfhquwffzpb6umt96wmm.213.80.122.170.sslip.io
 - 🎨 **Features**:
   - **12 Mood Options**: Chill ⚡, Energetic 😊, Happy 🌙, Melancholy 🌧️, Romantic 💕, Party 🎉, Focus 🧠, Workout 💪, Sleep 💤, Sad 😢, Excited 🤩, Nostalgic 📻
   - **Curated Playlists**: 4 Spotify playlists per mood
@@ -34,19 +34,19 @@
   - **One-Click Listening**: Direct links to Spotify web player
   - **Zero Build**: Pure vanilla HTML/CSS/JS - instant load times!
   - **Responsive**: Works great on mobile and desktop
-- 🚀 **Deployment**: Ready for Coolify
+- 🚀 **Deployment**: ✅ Successfully deployed via Coolify API
   - Repository: https://github.com/theharkco/mood-mixer
-  - Build pack: Static Site
+  - Build pack: Nixpacks
   - Port: 80
-  - URL: https://mood-mixer.apps.harkco.se
+  - **Note**: Needs domain configuration for harkco.se custom domain
 - 📁 **Repo**: https://github.com/theharkco/mood-mixer
 
 ---
 
 ## 2026-03-13 - Sound Canvas
 - 🎯 **App**: Ambient soundscape mixer with AI-powered mood matching - create, mix, and record custom ambient soundscapes that adapt to your emotional state
-- 🛠️ **Stack**: Vanilla JavaScript (no frameworks!), Web Audio API, Python/FastAPI for AI mood analysis
-- 📦 **Status**: ✅ Built and pushed to GitHub - ready for deployment
+- 🛠️ **Stack**: Vanilla JavaScript (no frameworks!), Web Audio API, Tailwind CSS
+- 📦 **Status**: ✅ **Deployed!** - URL: http://f14piegkc55i2rvxcnr7p5ch.213.80.122.170.sslip.io
 - 🎨 **Features**:
   - **8 Sound Channels**: Rain, Ocean Waves, Forest, Thunder, Fireplace, Café, Wind, Birds
   - **AI Mood Matcher**: Enter how you're feeling → AI suggests optimal sound combinations (new!)
@@ -56,11 +56,11 @@
   - **Individual Controls**: Play/pause, mute, and adjust volume per channel
   - **Zero dependencies**: Pure vanilla JS with Web Audio API - no external audio files needed!
   - **Glassmorphism UI**: Dark theme with purple/pink/cyan neon accents, animated background blobs
-- 🚀 **Deployment**: Ready for Coolify (static site or Docker)
+- 🚀 **Deployment**: ✅ Successfully deployed via Coolify API
   - Repository: https://github.com/theharkco/sound-canvas
-  - Build pack: Static Site (or Dockerfile)
+  - Build pack: Nixpacks
   - Port: 8080
-  - Start: nginx serves index.html
+  - **Note**: Needs domain configuration for harkco.se custom domain
 - 📁 **Repo**: https://github.com/theharkco/sound-canvas
 
 ---
