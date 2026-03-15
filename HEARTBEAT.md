@@ -40,7 +40,7 @@
 - **Fraga Kölle**: `bkc848gkccww4k4ws00cw00k` → `https://fragakolle.se`
 
 # Pending Deployments
-- **AI Journal Assistant**: Repository created at https://github.com/minihark/ai-journal, pending deployment to Coolify
+- **AI Journal Assistant**: ✅ Deployed! - http://kuo8kmyqtq9p85kya2t8q4kt.213.80.122.170.sslip.io
 
 # Other Periodic Checks
 - Email - Any urgent unread messages?
