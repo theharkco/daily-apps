@@ -40,7 +40,7 @@
 - **Fraga Kölle**: `bkc848gkccww4k4ws00cw00k` → `https://fragakolle.se`
 
 # Pending Deployments
-- **AI Journal Assistant**: ✅ Deployed! - http://kuo8kmyqtq9p85kya2t8q4kt.213.80.122.170.sslip.io
+(none - all caught up!)
 
 # Other Periodic Checks
 - Email - Any urgent unread messages?
